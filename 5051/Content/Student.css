@@ -1,0 +1,276 @@
+﻿
+.background {
+    background-image: url("../Content/img/sunset.png");
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    padding-top: 30px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+
+.student-index-h2 {
+    margin-top: 50px;
+    color: #fff;
+}
+
+.my-progress-h2 {
+    margin-top: 50px;
+    color: #fff;
+}
+
+#main-menu-student {
+    margin-top: -60px;
+    padding-top: 5px;
+    padding-left: 740px;
+    padding-bottom: 20px;
+}
+
+.scroll-bar-horz {
+    position: absolute;
+    border: none;
+    width: 100%;
+    height: 700px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.student-header {
+    padding-top: 15px;
+    font-size: 5.0vw;
+    color:#fff;
+}
+
+#studentnavicons {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    font-size: calc(1.0vw + 1.0vh);
+    transform: translate(-50%);
+    z-index: 2;
+}
+
+    #studentnavicons a {
+        color: #9cdbec;
+        font-size: calc(2vw + 2vh);
+        margin-left: 25px;
+    }
+
+.student-text-medium {
+    margin-top: 5%;
+    font-size: 3.5vh;
+}
+
+.student-text-small {
+    margin-top: 3%;
+    font-size: 2.0vh;
+}
+
+#wireframe-student {
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.avatar-block {
+    margin-top: 120px;
+}
+
+/*----------------Logout---------------*/
+.dog-container {
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 200px;
+}
+
+    .dog-container .dog {
+        top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 0;
+    }
+
+.speech-bubble {
+    position: absolute;
+    margin-left: -300px;
+    margin-right: auto;
+    width: 400px;
+}
+
+.speech-bubble2 {
+    position: absolute;
+    margin-left: 100px;
+    margin-right: auto;
+    width: 400px;
+}
+
+/*---------------Logout END-------------*/
+
+#market-pic {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.shop-scroll {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.span5 {
+    height: 600px;
+    width: 1050px;
+    position: center;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 25px;
+    opacity: 0.7;
+    padding: 10px;
+    margin-top: 10px;
+    z-index: 0;
+}
+
+.shops {
+    top: -500px;
+    margin-bottom: -430px;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-right: 50px;
+}
+
+.mySlides {
+    display: none;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: -750px;
+}
+
+/*manage right button position in student/report */
+.slideButtonLeft {
+    margin-bottom: -580px;
+}
+
+/*manage right button position in student/report */
+.slideButtonRight {
+    margin-bottom: -580px;
+}
+
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    margin-left: -100px;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%, -50%);
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    margin-right: -100px;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%, -50%);
+}
+
+.w3-bar {
+    width: 100%;
+    overflow: hidden
+}
+
+    .w3-bar .w3-bar-item {
+        position: center;
+        padding: 8px 16px;
+        float: none;
+        width: auto;
+        border: none;
+        outline: 0
+    }
+
+
+    .w3-bar .w3-button {
+        white-space: normal
+    }
+
+
+.w3-content {
+    max-width: 980px;
+    margin: auto
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+    .w3-button:hover {
+        color: #000 !important;
+        background-color: #ccc !important
+    }
+
+
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%)
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%)
+}
+
+.w3-container, .w3-panel {
+    padding: 0.01em 16px
+}
+
+.w3-display-container {
+    position: relative
+}
+
+
+.w3-panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+
+.w3-panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.w3-white, .w3-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important
+}
+

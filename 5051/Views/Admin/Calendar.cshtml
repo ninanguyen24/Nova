@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Calendar";
+}
+
+<link rel="stylesheet" type="text/css" href="~/Content/Login.css" />
+
+
+<div id="background3">
+    <div id="adminCalendar"class="row text-center">
+        <div class="container">
+            <div id="mainMenuCal">
+                @Html.ActionLink("Main Menu", "Index", "Admin", null, new { @class = "btn btn-primary" })
+            </div>
+            <h2 id="mainAdminTitleCal">Welcome to Admin Calendar</h2>
+            <p id="mainAdminTitleCal">Stay on track Seattle School District events and sync up with your
+                personal calendar
+            </p>
+            
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffcccc&amp;src=hs4s4uas2tcgh3ui4sp7btdrt4%40group.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FLos_Angeles" 
+                    style="border:solid 1px #777" width="900" height="600" frameborder="0" scrolling="no"></iframe>
+
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Marketplace";
+}
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="~/Content/Login.css" />
+<link rel="stylesheet" type="text/css" href="~/Content/Student.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    $(function () {
+        // Handler for .ready() called.
+
+        $('#wireframe-student').on('click', function () {
+            var img_src = $(this).attr('alt');
+            if (img_src == 'image1') {
+                $(this).attr({ src: '/Content/img/Student Market/Market_demo3Copy.png', alt: 'image2' });
+            } else if (img_src == 'image2') {
+                $(this).attr({ src: '/Content/img/Student Market/Market_demo4Copy.png', alt: 'image3' });
+            } else if (img_src == 'image3') {
+                $(this).attr({ src: '/Content/img/Student Market/Market_demo5Copy.png', alt: 'image4' });
+            } else {
+                /* carry on..... */
+            }
+        });
+    });
+</script>
+
+<div class="background">
+    <div class="row text-center">
+        <h1 class="student-header" align="center">Marketplace</h1>
+        <div id="main-menu-student" class="col-md-9 pull-right">
+            @Html.ActionLink("Student Menu", "Index", "Portal", null, new { @class = "btn btn-primary" })
+        </div>
+        <div id="studentnavicons">
+            <a href="~/Student/MarketAfter" title="Store"><i class="fas fa-store-alt"></i></a>
+            <a href="~/Student/Community" title="Community"><i class="fas fa-map-signs"></i></a>
+            <a href="~/Student/Market" title="Marketplace"><i class="fas fa-shopping-cart"></i></a>
+            <a href="~/Student/Avatar" title="Avatar"><i class="fas fa-user"></i></a>
+            <a href="~/Portal/Logout" title="Logout"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+ 
+            <div class="row">
+                <div class="col-md-12">
+                    <img id="wireframe-student" src="~/Content/img/Student Market/Market_demo2Copy.png" width="1000" class="img-responsive" alt="image1" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

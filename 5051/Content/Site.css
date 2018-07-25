@@ -1,0 +1,493 @@
+﻿/* --------------Fab5 ----------------*/
+#community {
+    margin-bottom: 150px;
+    padding-top: 10px;
+}
+
+.background2 {
+    background-image: url("../Content/img/daytimeBackground.png");
+    background-position: center bottom;
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+/******************ADMIN SECTION*****************************************************/
+
+#background3 {
+    background-image: url("../Content/img/nightimeBackground.png");
+    background-position: center bottom;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+#Pgtitle {
+    font-size: 30px;
+    color: #fff375;
+    margin-top: -20px;
+    padding-left: 20px;
+}
+
+#adminHeader {
+    padding-top: 60px;
+}
+
+#mainMenu {
+    margin-top: -20px;
+    padding-top: 5px;
+    padding-left: 740px;
+    padding-bottom: 20px;
+}
+
+#mainMenuCal {
+    text-align: right;
+    padding-top: 40px;
+}
+
+#mainAdminTitle {
+    color: #fff375;
+    padding-top: 30px;
+}
+
+#mainAdminTitleCal {
+    color: #fff375;
+    margin-top: 10px;
+}
+
+
+#adminPane {
+    border-radius: 25px;
+    background-color: #f9f3ae;
+    padding: 30px 30px;
+    opacity: 0.90;
+}
+
+#adminLPane {
+    border-radius: 25px;
+    background-color: #f9f3ae;
+    padding: 30px 30px;
+    opacity: 0.90;
+    min-height: 500px;
+}
+
+.hoverGlow:hover {
+        box-shadow: 0px 0px 10px #fff;
+        border-style: solid;
+        border-width: thick;
+        border-color: #ffffff;
+}
+
+#adminRPane {
+    border-radius: 25px;
+    background-color: #f9f3ae;
+    padding: 30px 30px;
+    opacity: 0.90;
+    min-height: 500px;
+    margin-left: 15px;
+    width: 722px;
+}
+
+#adminInnerLPane {
+    margin: auto;
+}
+
+#adminInnerRPane{
+    padding-left: 48px;
+    padding-bottom: 15px;
+}
+
+#adminInnerRPane2 {
+    float: right;
+    padding-top: 2px;
+    padding-right: 45px;
+    padding-bottom: 15px;
+}
+
+#reportPane{
+    padding-left: 48px;
+}
+
+#adminReportBttn{
+    padding-left: 255px;
+    padding-top: 20px;
+}
+
+#adminReportBttn .attnEdit {
+       text-align: center;
+       margin-left: 3px;
+}
+
+#fitTitleText {
+    padding-right: 0px;
+    width: 143px;m
+}
+
+#fitInfoText {
+    padding-left: 11px;
+}
+
+#fitEditNameText {
+    overflow: hidden
+}
+
+
+.center {
+    padding-left: 30px;
+}
+
+.listcenter {
+    padding-top: 70px;
+    overflow: auto;
+}
+
+/****************************************************************************************/
+
+.road {
+    background: rgb(138,138,138);
+    background: linear-gradient(180deg, rgba(138,138,138,1) 0%, rgba(162,162,162,1) 50%, rgba(138,138,138,1) 100%);
+    height: 120px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+.road hr {
+        vertical-align: middle;
+        border-bottom: 10px dashed white;
+        padding-top: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+body {
+    background-color: #857c73;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    z-index: 0;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Set items in a div */
+.div-center {
+    display: inline-block;
+    float: none;
+}
+
+.container-full {
+    width:100%;
+    margin: 0 auto;
+}
+
+.student-index {
+    background: #fefbd8;
+    background-size: cover;
+}
+
+.btn-primary {
+    color: #fff;
+}
+
+.btn.btn-primary{
+    color: #fff;
+}
+
+
+.form p {
+    color: white;
+}
+
+.nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+a.navbar-brand {
+    background: url(../Content/img/sitelogo.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px; /* hides the link text */
+}
+
+.nav-wrapper {
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: transparent;
+    padding-right: 20px;
+    z-index: 999;
+    position: fixed;
+}
+
+.navbar-custom {
+    background-color: transparent;
+    border: 0px;
+    font-size: 20px;
+    z-index: 999;
+}
+
+.navbar-custom .navbar-nav > li > a {
+        color: #fff; /*Sets the text hover color on navbar*/
+        text-transform: uppercase;
+}
+
+    .navbar-custom .navbar-nav > li > a:hover {
+        background-color: cyan;
+        color: #3e4444;
+        text-transform: uppercase;
+        box-shadow: 0 4px 10px 4px rgba(62, 68, 68, .7);
+    }
+
+.footer {
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #5f5851;
+}
+
+.footer a {
+    color: #fff;
+}
+
+
+/*----------------------Kiosk Page------------------------*/
+
+#clock {
+    display: flex;
+    display: -webkit-flex;
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5em;
+    color: white;
+}
+
+.unit {
+    height: 100%;
+    text-align: center;
+    width: 35%;
+    color: #3e4444;
+}
+
+#avatar-white {
+    border: 4px solid white;
+    border-radius: 150px;
+    padding: 5px;
+}
+
+#avatar-green {
+    border: 4px solid #6dff08;
+    border-radius: 150px;
+    padding: 5px;
+}
+
+
+#listusers {
+    overflow-x: hidden;
+    max-width: 100%;
+    min-height: 550px;
+    columns: 100px 3;
+
+}
+
+#listusers a {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+#avatar {
+    border: 10px solid #fff;
+    border-radius: 200px;
+    padding: 10px;
+    width: 65%;
+}
+
+#avatarsidebar {
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.kioskModule {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    background: #3e4444;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px 4px rgba(62, 68, 68, .3);
+    color: white;
+    padding: 20px;
+    color: white;
+}
+
+#kioskbackground h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 2em;
+}
+
+.kioskModule h2 {
+    color: white;
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.kioskbtn {
+    font-size: 2em;
+    margin-bottom:40px;
+}
+
+#box {
+    margin-bottom:40px;
+}
+
+#kioskbackground {
+    background-image: url("../Content/img/daytimeBackground.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.form-group select {
+    border: none;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 100%;
+    border-radius: 4px;
+    height: 34px;
+    color: #555;
+}
+
+/**** End Kiosk Page CSS */
+
+
+/*    Homepage CSS   BEG     */
+.masthead {
+    min-height: 30rem;
+    display: block;
+    width: 100%;
+    height: 550px;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.0)), url("../Content/img/headerbg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3e4444;
+    text-align: center;
+    font-size: 4em;
+}
+
+    .masthead h1 {
+        font-family: 'Catamaran';
+        font-weight:700;
+        font-size:1.5em;
+    }
+
+    .masthead h3 {
+        font-family: 'Catamaran';
+        font-weight: 700;
+        font-size: 0.8em;
+    }
+
+
+.intro {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: #F5FFFA;
+    margin: auto;
+    height: auto;
+}
+
+.banner {
+    background: url(../Content/img/adminBackground.png);
+    width: 100%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: auto;
+}
+
+/*-----------Intro Student, Admin, Kiosk pages----------*/
+
+.bgcolor-intro {
+    background-color: #cfaf58;
+}
+.intro-h2 {
+    margin-top: 100px;
+    color: #fff;
+    font-size: 3em;
+}
+
+.intro-container {
+    width: 600px;
+    margin: auto;
+    
+}
+
+.intro-p {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.progress-h3 {
+    margin-top: 50px;
+    color: #3e4444;
+}
+
+.game-h3 {
+    color: #3e4444;
+}
+
+.manage-students-h3 {
+    margin-top: 50px;
+    color: #3e4444;
+}
+
+.override-calendar-h3 {
+    color: #3e4444;
+}
+
+.kiosk-h3 {
+    color: #3e4444;
+}

@@ -1,0 +1,51 @@
+
+@{
+
+    ViewBag.Title = "Logout";
+}
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="~/Content/Login.css" />
+<link rel="stylesheet" type="text/css" href="~/Content/Student.css" />
+
+<script>
+    window.setTimeout(function () {
+        // Move to a new location or you can do something else
+        window.location.href = "../Portal/Login";
+    }, 4000);
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    $(function () {
+        $(".speech-bubble1").css("display", "none");
+        $(".speech-bubble1").delay(500).fadeIn(500);
+        $(".speech-bubble2").css("display", "none");
+        $(".speech-bubble2").delay(2000).fadeIn(500);
+    });
+</script>
+
+
+<div class="background">
+    <div class="row text-center">
+        <h1 class="student-header" align="center">Later!</h1>
+        <div id="main-menu-student" class="col-md-9 pull-right">
+            @Html.ActionLink("Student Menu", "Index", "Portal", null, new { @class = "btn btn-primary" })
+        </div>
+        <div id="studentnavicons">
+            <a href="~/Student/Default" title="Store"><i class="fas fa-store-alt"></i></a>
+            <a href="~/Student/Community" title="Community"><i class="fas fa-map-signs"></i></a>
+            <a href="~/Student/Market" title="Marketplace"><i class="fas fa-shopping-cart"></i></a>
+            <a href="~/Student/Avatar" title="Avatar"><i class="fas fa-user"></i></a>
+            <a href="~/Portal/Logout" title="Logout"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+
+        <p class="student-text-medium">You are logged out!<br />Redirecting to login screen...</p>
+        <div class="dog-container">
+            <img class="speech-bubble" id="dog-pic" src="~/Content/img/speech-bubble-blue.png" />
+            <img class="dog" id="dog-pic" src="~/Content/img/wasabi.png" />
+            <img class="speech-bubble2" id="dog-pic" src="~/Content/img/speech-bubble-fab.png" />
+        </div>
+    </div>
+</div>
